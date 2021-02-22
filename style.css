@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body,
+html {
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: "Archivo Black";
+  color: #326273;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: inline;
+}
+
+nav > ul > li {
+  display: inline;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 75px;
+  padding: 5px;
+  background-color: #326273;
+  color: #FFFFFF;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  background-color: #326273;
+  color: #FFFFFF;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  flex-direction: column;
+  width: 500px;
+}
+
+#round-img {
+  border-radius: 50%;
+  margin-right: 50px;
+  height: 50%;
+}
+
+#subtitle {
+  margin-top: -15px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #E39774;
+}
